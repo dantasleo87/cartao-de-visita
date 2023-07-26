@@ -1,17 +1,8 @@
-* {
-  color: #FFF;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.links-leonardo-dantas {
+    text-decoration: none;
 }
 
-body {
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-.container {
+.container-geral-leonardo-dantas {
   width: 100%;
   height: 100vh;
   background-image: linear-gradient(#a734d2, #ff7581);
@@ -20,7 +11,7 @@ a {
   align-items: center;
 }
 
-.card {
+.card-leonardo-dantas {
   width: 540px;
   background-color: rgba(167, 52, 210, .5);
   border-radius: 16px;
@@ -38,25 +29,28 @@ a {
   transform: translateY(-65px);
 }
 
-.container-text {
+.container-text-leonardo-dantas {
   margin-top: -40px;
 }
 
-h1.name {
-  margin: 0;
+.apresentacao-leonardo-dantas {
   text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #FFF;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-h2.desc {
+.apresentacao-profissional-leonardo-dantas {
   font-weight: 400;
   text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #FFF;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-.socials {
+.socials-leonardo-dantas {
   margin: 30px 0;
 }
 
-.socials a {
+.socials-leonardo-dantas a {
   margin-right: 40px;
 }
 
@@ -64,17 +58,17 @@ h2.desc {
   margin-right: 0;
 }
 
-.socials img {
+.socials-leonardo-dantas img {
   width: 48px;
   transition: all .3s;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 50%;
 }
 
-.socials img:hover {
+.socials-leonardo-dantas img:hover {
   transform: scale(110%);
 }
 
-.socials img:active {
+.socials-leonardo-dantas img:active {
   transform: scale(103%);
 }
